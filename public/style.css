@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    margin : 50px;
+}
+
+h1 {
+    text-align : center
+}
+
+li {
+    margin: 20px 0px;
+}
