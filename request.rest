@@ -1,5 +1,6 @@
 GET http://localhost:2000/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTG91IiwiaWF0IjoxNjkwNzg4MTk3LCJleHAiOjE2OTA3ODgyNDJ9.rc_gaWsBEtmvaLdA7IzdDiWia_dkMg9Nc2dnsF_W8Uo
+
 ###
 
 POST http://localhost:8000/login
@@ -8,4 +9,9 @@ Content-Type: application/json
 {
     "username" : "Lou"
 }
+
+
+###
+GET http://localhost:8000/info
+Content-Type: application/json
 
